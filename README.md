@@ -1,5 +1,7 @@
 # PUSH_SWAP
 
+![](https://media.giphy.com/media/rzufqXSfH7BVbtudEe/giphy.gif?cid=ecf05e47qmi7als8ut7279eg2jhvnjzduyuladdonpdw4h8w&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
 ## Descrição
 
 O projeto **Push Swap** é um desafio de algoritmos que envolve a ordenação de um conjunto de inteiros utilizando duas pilhas (stacks) e um conjunto específico de instruções. O objetivo é desenvolver um programa em C chamado `push_swap` que calcula e exibe a sequência mais curta de instruções, na linguagem Push Swap, para ordenar os inteiros recebidos como argumentos.
