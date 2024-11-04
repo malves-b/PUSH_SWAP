@@ -1,6 +1,6 @@
 # PUSH_SWAP
 
-![](https://media.giphy.com/media/rzufqXSfH7BVbtudEe/giphy.gif?cid=ecf05e47qmi7als8ut7279eg2jhvnjzduyuladdonpdw4h8w&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+![ORGANIZING](https://media.giphy.com/media/rzufqXSfH7BVbtudEe/giphy.gif?cid=ecf05e47qmi7als8ut7279eg2jhvnjzduyuladdonpdw4h8w&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
 ## Descrição
 
