@@ -2,95 +2,95 @@
 
 ![ORGANIZING](https://media.giphy.com/media/rzufqXSfH7BVbtudEe/giphy.gif?cid=ecf05e47qmi7als8ut7279eg2jhvnjzduyuladdonpdw4h8w&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
-## Descrição
+## Overview
 
-O projeto **Push Swap** é um desafio de algoritmos que envolve a ordenação de um conjunto de inteiros utilizando duas pilhas (stacks) e um conjunto específico de instruções. O objetivo é desenvolver um programa em C chamado `push_swap` que calcula e exibe a sequência mais curta de instruções, na linguagem Push Swap, para ordenar os inteiros recebidos como argumentos.
+The **Push Swap** project is an algorithmic challenge that involves sorting a set of integers using two stacks and a specific set of instructions. The goal is to develop a C program called `push_swap` that calculates and displays the shortest sequence of instructions, in the Push Swap language, to sort the integers received as arguments.
 
-## Objetivos
+## Objectives
 
-- Escrever um algoritmo de ordenação eficiente.
-- Aprender sobre complexidade de algoritmos.
-- Praticar a programação em C de acordo com as normas estabelecidas.
-- Compreender e implementar operações em pilhas.
+- Write an efficient sorting algorithm
+- Learn about algorithm complexity
+- Practice C programming according to established norms
+- Understand and implement stack operations
 
-### Instruções Comuns
+### Common Requirements
 
-- O projeto deve ser escrito em C e seguir as normas (Norm).
-- Deve evitar falhas inesperadas (ex: segmentation fault, bus error).
-- Toda memória alocada deve ser liberada corretamente.
-- Um Makefile deve ser incluído, que compile os arquivos de origem para o executável `push_swap`.
+- The project must be written in C and follow the norms
+- It must avoid unexpected failures (e.g., segmentation fault, bus error)
+- All allocated memory must be properly freed
+- A Makefile must be included that compiles the source files into the `push_swap` executable
 
-## Estrutura do Projeto
+## Project Structure
 
-### Pilhas
+### Stacks
 
-- Você terá duas pilhas: `a` e `b`.
-- A pilha `a` deve conter uma quantidade aleatória de números inteiros (negativos e/ou positivos) sem duplicatas.
-- A pilha `b` deve começar vazia.
+- You will have two stacks: `a` and `b`.
+- Stack `a` must contain a random amount of integers (negative and/or positive) without duplicates
+- Stack `b` must start emptyy.
 
-### Instruções
+### Instructions
 
-Você pode usar as seguintes instruções para manipular as pilhas:
+You can use the following instructions to manipulate the stacks:
 
-- **sa**: Troca os dois primeiros elementos da pilha `a`.
-- **sb**: Troca os dois primeiros elementos da pilha `b`.
-- **ss**: Executa `sa` e `sb` ao mesmo tempo.
-- **pa**: Move o primeiro elemento da pilha `b` para o topo da pilha `a`.
-- **pb**: Move o primeiro elemento da pilha `a` para o topo da pilha `b`.
-- **ra**: Rotaciona a pilha `a` para cima.
-- **rb**: Rotaciona a pilha `b` para cima.
-- **rr**: Executa `ra` e `rb` ao mesmo tempo.
-- **rra**: Rotaciona a pilha `a` para baixo.
-- **rrb**: Rotaciona a pilha `b` para baixo.
-- **rrr**: Executa `rra` e `rrb` ao mesmo tempo.
+- **sa**: Swap the first two elements of stack `a`.
+- **sb**: Swap the first two elements of stack `b`.
+- **ss**: Execute `sa` and `sb` simultaneously.
+- **pa**: Move the first element from stack `b` to the top of stack `a`.
+- **pb**: Move the first element from stack `a` to the top of stack `b`.
+- **ra**: Rotate stack `a` upward.
+- **rb**: Rotate stack `b` upward.
+- **rr**: Execute `ra` and `rb` simultaneously.
+- **rra**: Rotate stack `a` downward.
+- **rrb**: Rotate stack `b` downward.
+- **rrr**: Execute `rra` and `rrb` simultaneously.
 
-### Exemplo de Uso
+### Usage Example
 
-Para usar o programa, você deve passar uma lista de números inteiros como argumento. Por exemplo:
+To use the program, you must pass a list of integers as arguments. For example:
 
 ```bash
 ./push_swap 2 1 3 6 5 8
 ```
 
-O programa exibirá a sequência de instruções necessárias para ordenar os números.
+The program will display the sequence of instructions needed to sort the numbers.
 
-## Compilação
+## Compilation
 
-O projeto inclui um Makefile que permite compilar o programa facilmente. Para compilar, execute o seguinte comando:
+The project includes a Makefile that allows easy compilation of the program. To compile, run the following command:
 
 ```
 make
 ```
 
-Para limpar os arquivos de objeto gerados, use:
+To clean up the generated object files, use:
 
 ```
 make clean
 ```
 
-Para remover o executável e os arquivos de objeto, use:
+To remove the executable and object files, use:
 
 ```
 make fclean
 ```
 
-Para recompilar, execute:
+To recompile, run:
 
 ```
 make re
 ```
 
-## Visualizador
+## Visualizer
 
-Para facilitar a visualização do funcionamento do seu programa, um vídeo demonstrativo está disponível. Este vídeo mostra como o algoritmo ordena os números em tempo real, utilizando a estrutura de pilhas.
+To facilitate visualization of your program's operation, a demonstration video is available. This video shows how the algorithm sorts numbers in real time using the stack structure.
 
 ![](./push_swap_100.gif)
 
 ## Benchmark
 
-Para validação do projeto, você deve ser capaz de ordenar 100 números aleatórios em menos de 700 operações. Para a validação máxima, você deve conseguir ordenar 500 números em menos de 5500 operações.
+For project validation, you must be able to sort 100 random numbers in less than 700 operations. For maximum validation, you must be able to sort 500 numbers in less than 5500 operations.
 
-## Considerações Finais
+## Final Considerations
 
-Este projeto é uma excelente oportunidade para aprimorar suas habilidades em algoritmos e programação em C, além de ser um bom ponto de partida para entender conceitos de complexidade que podem ser úteis em entrevistas de emprego.
+This project is an excellent opportunity to enhance your skills in algorithms and C programming, as well as being a good starting point for understanding complexity concepts that can be useful in job interviews.
 
